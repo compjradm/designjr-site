@@ -1,0 +1,38 @@
+#empresa-txt {
+   line-height: 1rem;
+   font-size: 0.9rem;
+   padding: 10vh 2.5vw 10vh 5vw;
+}
+#empresa-txt > p{
+   text-indent: 50px;
+}
+iframe {
+   margin: 10vh 5vw 10vh 0;
+   height: 65vh;
+   border: 15px solid #ffffff;
+}
+#lista-funcionamento {
+   font-size: 1.25rem;
+   margin: 10vh auto 10vh auto;
+}
+#lista-funcionamento-descricao {
+   line-height: 1rem;
+   padding: 0 5vw 0 5vw;
+   font-size: 0.95rem;
+}
+
+.selecionado-negrito {
+   font-weight: bold;
+}
+
+@media(max-width:1024px){
+   #lista-funcionamento {
+      font-size: 1rem;
+      margin: 10vh auto 10vh auto;
+   }
+   #lista-funcionamento-descricao {
+      line-height: 1rem;
+      padding: 0 5vw 0 5vw;
+      font-size: 1rem;
+   }
+}

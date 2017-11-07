@@ -1,0 +1,45 @@
+.margem1 {
+   margin: 5vh auto 2vh auto;
+}
+.margem2 {
+   margin: 2vh auto 5vh auto;
+}
+.margem3 {
+   margin: 2vh auto 2vh auto;
+}
+.margem4 {
+   margin: 2vh auto 12vh auto;
+}
+#div-card {
+   min-width: 15vw;
+   max-width: 37.5vw;
+   background-color: #ffffff;
+   border: 10px solid #ffffff;
+   box-shadow: 5px 5px 7px grey;
+   border-radius: 0;
+}
+#div-card > img {
+   min-height: 25vh;
+   max-height: 25vh;
+   border-radius: 0;
+   vertical-align: middle;
+}
+#div-card:hover img {
+   opacity: 0.35;
+}
+#div-card > span {
+   visibility: hidden;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   line-height: 100%;
+}
+#div-card:hover span {
+   color: #000;
+   visibility: visible;
+   text-align: center;
+}
+.modal-title {
+   text-align: right;
+}

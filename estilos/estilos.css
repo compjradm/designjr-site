@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'MuseoSans-100';
+  src: url("./fontes/MuseoSans-100.otf") format("opentype");
+}
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url("../fontes/MuseoSans-500.otf") format("opentype");
+}
+@font-face {
+  font-family: 'MuseoSans-700';
+  src: url("../fontes/MuseoSans-700.otf") format("opentype");
+}
+.font100 {
+  font-family: 'MuseoSans-100', sans-serif;
+}
+.font700 {
+  font-family: 'MuseoSans-700', sans-serif;
+}
+html, body {
+   font-family: 'MuseoSans-500', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+footer {
+   text-align: center;
+}
+#img-contato-rodape {
+   max-height: 10vh;
+   margin: 2.5vh 5.5vw 2.5vh 0;
+}
+.container-fluid {
+   padding: 0;
+}
+.cabec-rodape {
+   height: 16vh;
+   background-color: #ffffff;
+}
+.alinha-vertical {
+   display: flex;
+   align-items: center;
+}
+.titulo-secao {
+   margin-left: 20vw;
+   padding-top: 6vh;
+   padding-bottom: 1vh;
+   overflow: hidden;
+}
+.titulo-secao > span{
+    position: relative;
+    display: inline-block;
+}
+.titulo-secao > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 3px solid;
+    width: 100vw; /* half of limiter*/
+    margin: 0 20px;
+}
+.titulo-secao > span:after{
+    left: 100%;
+}
+
+
+
+
+/* A EMPRESA */
+section#a-empresa {
+   color: #002a3e;
+   background-color: #93d5d9;
+}
+
+
+/* PROJETOS */
+section#projetos {
+   color: #002a3e;
+   background-color: #c7db68;
+}
+
+@media(max-width:768px){
+   .cabec-rodape {
+      height: 20vh;
+      background-color: #ffffff;
+   }
+}

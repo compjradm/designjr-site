@@ -1,0 +1,55 @@
+/* Barra de Navegação */
+.menu-pc {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0);
+  min-width: 680px;
+}
+nav li {
+  list-style-image: url('../imgs/navbar/bullet-azul-vaz.png');
+  color: #002a3e;
+  text-align: center;
+  float: right;
+  margin-right: 9.75%;
+  box-sizing: border-box;
+  z-index: 2;
+  margin-top: -26.4px;
+  list-style-position: inside;
+}
+nav li:first-child {
+  margin-right: 25%;
+}
+nav li:nth-last-child(4) {
+  list-style-image: url('../imgs/navbar/bullet-azul.png');
+}
+nav li:hover {
+  list-style-image: url('../imgs/navbar/bullet-azul.png');
+}
+a.nav {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  color: #002a3e;
+  margin-top: 0px;
+}
+hr {
+  z-index: 7;
+  height: 3px;
+  border:none;
+  color: #002a3e;
+  background-color:#002a3e;
+  margin-top: 65px;
+  margin-bottom: 0px;
+}
+.nav-logo {
+  float: left;
+  margin-left: 7%;
+  margin-top: 9px;
+  margin-right: 0;
+}
+ul li a img{
+  width:80px;
+  margin-bottom: 5%;
+  margin-top: -100%;
+}
