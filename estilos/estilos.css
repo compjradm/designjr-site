@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MuseoSans-100';
-  src: url("../fontes/MuseoSans-100.otf") format("opentype");
+  src: url("./fontes/MuseoSans-100.otf") format("opentype");
 }
 @font-face {
   font-family: 'MuseoSans-500';
