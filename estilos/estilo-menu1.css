@@ -36,14 +36,13 @@ nav li:hover {
 }
 a.nav {
   display: block;
-  font-size: 15px;
   text-decoration: none;
   color: white;
   margin-top: 0px;
 }
 hr {
   z-index: 7;
-  height: 3px;
+  height: 2.75px;
   border:none;
   color:#fff;
   background-color:#fff;

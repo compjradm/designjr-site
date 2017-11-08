@@ -46,19 +46,19 @@ footer {
    overflow: hidden;
 }
 .titulo-secao > span{
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .titulo-secao > span:after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    border-bottom: 3px solid;
-    width: 100vw; /* half of limiter*/
-    margin: 0 20px;
+  content: '';
+  position: absolute;
+  top: 50%;
+  border-bottom: 2.75px solid;
+  width: 100vw; /* half of limiter*/
+  margin: 0 20px;
 }
 .titulo-secao > span:after{
-    left: 100%;
+  left: 100%;
 }
 
 

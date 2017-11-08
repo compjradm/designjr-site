@@ -28,24 +28,23 @@ nav li:hover {
 }
 a.nav {
   display: block;
-  font-size: 15px;
   text-decoration: none;
   color: #002a3e;
   margin-top: 0px;
 }
 hr {
   z-index: 7;
-  height: 3px;
+  height: 2.75px;
   border:none;
   color: #002a3e;
   background-color:#002a3e;
-  margin-top: 65px;
+  margin-top: 60px;
   margin-bottom: 0px;
 }
 .nav-logo {
   float: left;
   margin-left: 7%;
-  margin-top: 9px;
+  margin-top: 15px;
   margin-right: 0;
 }
 ul li a img{
