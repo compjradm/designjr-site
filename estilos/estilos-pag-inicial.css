@@ -139,7 +139,7 @@ a:visited, a:hover, a:active {
 }
 #img-contato-rodape {
   max-height: 10vh;
-  margin: 2.5vh 5.5vw 2.5vh 0;
+  margin: 2.5vh 0 2.5vh 0;
 }
 
 @media(max-width:568px){
