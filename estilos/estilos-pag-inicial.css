@@ -3,11 +3,12 @@
   height: 100vh;
 }
 .botao {
+  height: 8vh;
   color: #002a3e;
   padding: 2vh 1.5vw;
   background-color: #ffffff;
   border: 0.75px solid #002a3e;
-  margin: 3vh 0;
+  margin: 4vh 0;
 }
 .botao-transp {
   font-size: 0.75rem;
@@ -24,7 +25,7 @@ div.alinha-h > h4 {
   margin: 2vh auto 2vh auto;
 }
 div.alinha-h {
-  height: 31vh;
+  height: 30vh;
   text-align: center;
   margin: 2vh 0 2vh 0;
 }
@@ -136,10 +137,6 @@ a:visited, a:hover, a:active {
 #img-telefone {
   min-height: 44vh;
   margin: 7.5vh auto 7.5vh auto;
-}
-#img-contato-rodape {
-  max-height: 10vh;
-  margin: 2.5vh 0 2.5vh 0;
 }
 
 @media(max-width:568px){
