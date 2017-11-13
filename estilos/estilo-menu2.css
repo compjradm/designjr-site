@@ -30,7 +30,7 @@ a.nav {
   display: block;
   text-decoration: none;
   color: #002a3e;
-  margin-top: 0px;
+  margin-top: 2.75px;
 }
 hr {
   z-index: 7;
@@ -38,13 +38,13 @@ hr {
   border:none;
   color: #002a3e;
   background-color:#002a3e;
-  margin-top: 60px;
+  margin-top: 65px;
   margin-bottom: 0px;
 }
 .nav-logo {
   float: left;
-  margin-left: 7%;
-  margin-top: 15px;
+  margin-left: 7.75%;
+  margin-top: 10px;
   margin-right: 0;
 }
 ul li a img{

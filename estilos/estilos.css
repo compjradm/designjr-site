@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MuseoSans-100';
-  src: url("./fontes/MuseoSans-100.otf") format("opentype");
+  src: url("../fontes/MuseoSans-100.otf") format("opentype");
 }
 @font-face {
   font-family: 'MuseoSans-500';
@@ -12,6 +12,9 @@
 }
 .font100 {
   font-family: 'MuseoSans-100', sans-serif;
+}
+.font500 {
+  font-family: 'MuseoSans-500', sans-serif;
 }
 .font700 {
   font-family: 'MuseoSans-700', sans-serif;
@@ -26,7 +29,7 @@ footer {
 }
 #img-contato-rodape {
   max-height: 10vh;
-  margin: 2.5vh 5.5vw 2.5vh 0;
+  margin: 2.5vh 0 2.5vh 0;
 }
 .container-fluid {
   padding: 0;
@@ -54,7 +57,7 @@ footer {
   position: absolute;
   top: 50%;
   border-bottom: 3px solid;
-  width: 100vw; /* half of limiter*/
+  width: 100vw;
   margin: 0 20px;
 }
 .titulo-secao > span:after{

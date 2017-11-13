@@ -83,14 +83,14 @@ div#underline {
   height: 68vh;
 }
 #div-card {
-  min-width: 15vw;
-  max-width: 37.5vw;
+  height: 25vh;
   background-color: #ffffff;
   border: 10px solid #ffffff;
   box-shadow: 5px 5px 7px grey;
   border-radius: 0;
 }
 #div-card img {
+  height: 25vh;
   border-radius: 0;
   vertical-align: middle;
 }
