@@ -11,16 +11,16 @@
   src: url("../fontes/MuseoSans-700.otf") format("opentype");
 }
 .font100 {
-  font-family: 'MuseoSans-100', sans-serif;
+  font-family: 'MuseoSans-100';
 }
 .font500 {
-  font-family: 'MuseoSans-500', sans-serif;
+  font-family: 'MuseoSans-500';
 }
 .font700 {
-  font-family: 'MuseoSans-700', sans-serif;
+  font-family: 'MuseoSans-700';
 }
 html, body {
-  font-family: 'MuseoSans-500', sans-serif;
+  font-family: 'MuseoSans-500';
   margin: 0;
   padding: 0;
 }
