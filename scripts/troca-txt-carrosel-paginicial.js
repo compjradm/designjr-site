@@ -2,11 +2,36 @@ $(document).ready(function(){
  	let owl1 = $('.owl-carousel.historia');
 	let owl2 = $('.owl-carousel.funcionamento');
 
+  //inicial o primeiro carrosel
+  owl1.owlCarousel({
+     center: true,
+     loop: true,
+     nav: true,
+     navText: ["<span class='carousel-control-prev-icon' aria-hidden='true'></span>", "<span class='carousel-control-next-icon' aria-hidden='true'></span>"],
+     responsive:{
+        0:{ items:3 },
+        767:{ items:3 },
+        1023:{ items:3 }
+     }
+  });
+  //inicia o segundo carrosel
+  owl2.owlCarousel({
+     center: true,
+     loop: true,
+     nav: true,
+     navText: ["<span class='carousel-control-prev-icon' aria-hidden='true'></span>", "<span class='carousel-control-next-icon' aria-hidden='true'></span>"],
+     responsive:{
+        0:{ items:3 },
+        767:{ items:3 },
+        1023:{ items:3 }
+     }
+  });
+
 	//PRIMEIRO CARROSEL
-	//detecta o antigo item para retirar o .gif e troca por .png
+  //detecta o antigo item para retirar o .gif e troca por .png
 	owl1.on('translate.owl.carousel', function(event) { //funcao começa ao inicio do translate (item do centro ainda é o antigo)
 		let altAntiga = $('.center > img.img-historia').attr("alt");
-		$('.center > img.img-historia').attr('src', './imgs/historia/'+altAntiga+'.png');
+    $('.center > img.img-historia').attr('src', './imgs/historia/'+altAntiga+'.png');
 	});
 	//detecta o novo item para colocar o .gif
 	owl1.on('translated.owl.carousel', function(event) {
