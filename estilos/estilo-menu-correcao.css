@@ -1,0 +1,6 @@
+nav li:nth-last-child(3) {
+  list-style-image: url('../imgs/navbar/bullet-azul-vaz.png');
+}
+nav li:nth-last-child(4) {
+  list-style-image: url('../imgs/navbar/bullet-azul.png');
+}
