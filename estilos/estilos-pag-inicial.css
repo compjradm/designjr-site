@@ -1,8 +1,61 @@
-.img-slide {
+/* Barra de navegação */
+#logo {
+  margin-left: 7.75%;
+  position: fixed;
+  top: 0px;
+}
+#logo img {
+  width: 80px;
+}
+.menu-pc {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0);
+  min-width: 680px;
+}
+.menu-pc li {
+  list-style-image: url('../imgs/navbar/bullet-branco-vaz.png');
+  color: white;
+  text-align: center;
+  float: right;
+  margin-right: 9.75%;
+  box-sizing: border-box;
+  z-index: 2;
+  margin-top: -26.4px;
+  list-style-position: inside;
+}
+.menu-pc li:first-child {
+  margin-right: 25%;
+}
+.menu-pc li:last-child {
+  list-style-image: url('../imgs/navbar/bullet-branco.png');
+}
+.menu-pc li:hover {
+  list-style-image: url('../imgs/navbar/bullet-branco.png');
+}
+a.nav {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 2.75px;
+}
+hr {
+  z-index: 7;
+  height: 2.75px;
+  border:none;
+  color:#fff;
+  background-color:#fff;
+  margin-top: 65px;
+  margin-bottom: 0px;
+}
+/*==================================================================*/
+/* CARROSEL PRINCIPAL */
+.img-slide { /* carrosel maior com imgs full screen */
   width: 100vw;
   height: 100vh;
 }
-.botao {
+.botao { /* botões dos finais de seção (a empresa e projetos) */
   height: 8vh;
   color: #002a3e;
   padding: 2vh 1.5vw;
@@ -10,7 +63,7 @@
   border: 0.75px solid #002a3e;
   margin: 4vh 0;
 }
-.botao-transp {
+.botao-transp { /* botões transparentes do carrosel maior */
   font-size: 0.75rem;
   color: #ffffff;
   padding: 2vh 1vw;
@@ -18,33 +71,29 @@
   border: 0.75px solid #ffffff;
   margin: 3vh 0;
 }
-
+/*==================================================================*/
 /* EMPRESA */
-div.alinha-h > h4 {
+.alinha-h > h4 {
   text-align: center;
   margin: 2vh auto 2vh auto;
 }
-div.alinha-h {
+.alinha-h { /* alinha div de carrosel da seção de historia */
   height: 30vh;
   text-align: center;
   margin: 2vh 0 2vh 0;
 }
-div.alinha-p > p {
+.alinha-p > p { /* alinha div de texto da seção de historia */
   padding: 0 5vw 0 5vw;
   text-align: justify;
   margin: 2vh 0 2vh 0;
 }
-div#underline {
+#underline {
   border: 1.5px solid #002a3e;
 }
-
+/*==================================================================*/
 /* CARROSEL */
-.img-historia, .img-func {
+.img-historia, .img-func { /* imgs dos carroseis menores */
   margin: 0 5px 0 3px !important;
-  max-width: 200px;
-  max-height: 200px;
-}
-.owl-item.active.center > img {
   max-width: 200px;
   max-height: 200px;
 }
@@ -68,7 +117,7 @@ div#underline {
 .owl-next {
   float: right;
 }
-
+/*==================================================================*/
 /* PROJETOS */
 .margem1 {
   margin: 5vh auto 2vh auto;
@@ -78,9 +127,6 @@ div#underline {
 }
 .container-projetos {
   height: 34vh;
-}
-.container-contato {
-  height: 68vh;
 }
 #div-card {
   background-color: #ffffff;
@@ -109,17 +155,20 @@ div#underline {
   visibility: visible;
   text-align: center;
 }
-
+/*==================================================================*/
 /* CONTATO */
-section#contato {
+#contato {
   background-color: #f27067;
 }
-a {
+.container-contato {
+  height: 68vh;
+}
+a.botao-contato {
   margin: 0 2vw 0 2vw;
   text-decoration: none;
   color: #002a3e;
 }
-a:visited, a:hover, a:active {
+.botao-contato a:visited, .botao-contato a:hover, .botao-contato a:active {
   color: #002a3e;
   background-color: transparent;
   text-decoration: none;
@@ -127,7 +176,7 @@ a:visited, a:hover, a:active {
 #alinha-contato li {
   margin: -10vh 5vw 0 5vw;
 }
-#contato-p {
+#contato-p { /* paragrafo da seção contato */
   padding-right: 1vw;
   text-align: right;
   border-right: 3px solid #002a3e;
@@ -135,71 +184,4 @@ a:visited, a:hover, a:active {
 #img-telefone {
   min-height: 44vh;
   margin: 7.5vh auto 7.5vh auto;
-}
-
-@media(max-width:568px){
-   .owl-item.active.center > img {
-      max-width: 40vw;
-      max-height: 40vh;
-   }
-   div.alinha-p {
-      padding: 7.5vh 10vw 7.5vh 10vw;
-   }
-   #div-card > img {
-      min-height: 40vh;
-      border-radius: 0;
-      vertical-align: middle;
-   }
-   #div-card {
-      min-width: 60vw;
-      min-height: 40vh;
-      background-color: #ffffff;
-      border: 10px solid #ffffff;
-      box-shadow: 5px 5px 7px grey;
-      border-radius: 0;
-   }
-   #contato-p {
-      padding-top: 7.5vh;
-      text-align: center;
-      border: none;
-   }
-   #img-telefone {
-      max-width: 40vw;
-      max-height: 50vh;
-      margin: 5vh 30vw 7.5vh 30vw;
-   }
-   #alinha-contato {
-      text-align: center;
-   }
-}
-
-@media(min-width:569px) and (max-width:769px){
-   div.alinha-h > h4 {
-      margin: 2vh auto 3vh auto;
-   }
-   div.alinha-p {
-      padding: 7.5vh 0 7.5vh 0;
-   }
-   .owl-item.active.center > img {
-      max-width: 40vw;
-      max-height: 40vh;
-   }
-   #div-card > img {
-      border-radius: 0;
-      vertical-align: middle;
-   }
-   #div-card {
-      min-width: 15vw;
-      background-color: #ffffff;
-      border: 10px solid #ffffff;
-      box-shadow: 5px 5px 7px grey;
-      border-radius: 0;
-   }
-   #contato-p {
-      text-align: center;
-      border: none;
-   }
-   #alinha-contato {
-      text-align: center;
-   }
 }
